@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuelos vision</title>
+    <link rel="icon"  type="image/png" href="delfin.png">
+    <style>
+ body {
+            background-image: url("cielo.jpg"); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+        }
+        /* Estilos para la "cabecera" asi le digo xd */
+        header {
+            font-size: 1.7rem;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkblue;
+            color: #fff;
+            padding: 20px;
+            margin: -10px;
+        }
+        /* Estilos para la barra de botones */
+        .boton-barra {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        /* Estilos para los botones */
+        .boton-barra li {
+            float: left;
+        }
+        .boton-barra li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .boton-barra li a:hover {
+            background-color: gray;
+            color: white;
+        }
+        /* contorno */
+        .contorno-texto {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000;
+        }
+        /* Contenedor para fondo */
+        .contenedor-borroso {
+            background-image: url("cielo.jpg"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* fondo borroso XD */
+        .contenido-sobre-fondo-borroso {
+            backdrop-filter: blur(10px); 
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+        /* Estilos para las imágenes */
+        .imagen {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            height: 200px;
+            width: 300px;
+        }
+        /* contenedor descripcion */
+        .contenedor-imagen-descripcion {
+            text-align: center;
+            margin: 20px;
+            display: inline-block; 
+            width: 320px; 
+        }
+        /* descripcion imagenes */
+        .descripcion {
+            font-size: 16px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 30px;
+        }
+        h1 {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- contenedor -->
+    <div class="contenedor-borroso">
+        <div class="contenido-sobre-fondo-borroso">
+            <!-- Titulo -->
+            <header class="contorno-texto"><center>Vuelos vision</center></header>
+            <hr color="black">
+            <!-- Botones -->  
+            <ul class="boton-barra">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca de.html">Acerca de</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactenos.html">Contacto</a></li>
+                <li><a href="referencias.html">referencias</a></li>
+            </ul>
+            <!--en este campo nos puede contactar-->
+            <p>
+                En el siguiente espacio podra enviarnos las solicitudes e inquietudes que tenga<br>
+                <h1><b>Contactenos</b></h1>
+                <br>
+                <form action="mailto:sebastianpedraza904@gmail.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" name="nombre" required><br>
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" name="correo" required><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea name="mensaje" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </p>
+            <!-- Copy_R -->
+            <footer>
+                <p>&copy; 2023 Vuelos vision</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

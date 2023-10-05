@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuelos vision</title>
+    <link rel="icon"  type="image/png" href="delfin.png">
+    <style>
+        body {
+            background-image: url("cielo.jpg"); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        /* Estilos para la "cabecera" asi le digo xd */
+        header {
+            font-size: 1.7rem;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkblue;
+            color: #fff;
+            padding: 20px;
+            margin: -10px;
+        }
+        /* Estilos para la barra de botones */
+        .boton-barra {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        /* Estilos para los botones */
+        .boton-barra li {
+            float: left;
+        }
+        .boton-barra li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .boton-barra li a:hover {
+            background-color: gray;
+            color: white;
+        }
+        /* contorno */
+        .contorno-texto {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000;
+        }
+        /* Contenedor para fondo */
+        .contenedor-borroso {
+            background-image: url("cielo.jpg"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* fondo borroso XD */
+        .contenido-sobre-fondo-borroso {
+            backdrop-filter: blur(10px); 
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 30px;
+        }
+        h1 {
+            margin-top: 30px;
+        }
+        p {
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        ol{
+            text-align: left;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- contenedor -->
+    <div class="contenedor-borroso">
+        <div class="contenido-sobre-fondo-borroso">
+            <!-- Titulo -->
+            <header class="contorno-texto"><center>Vuelos vision</center></header>
+            <hr color="black">
+            <!-- Botones -->  
+            <ul class="boton-barra">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca de.html">Acerca de</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactenos.html">Contacto</a></li>
+                <li><a href="referencias.html">referencias</a></li>
+            </ul>
+            <!--texto-->
+            <h1>Nuestros servicios</h1>
+            <p>
+                Nuestra aerolinea vision cuenta con diferentes servicios de los que se pueden hacer uso aqui le dejamos un listado con los servicios disponibles<br>
+            </p>
+                <h2>Servicios disponibles</h2>
+            <p>
+                por el momento no hay servicios disponibles para los usuarios
+            </p>
+                <h2>Servicios no disponibles (actualmente)</h2>
+            <p>
+                <ol>• Venta de billetes online</ol>
+                <ol>• Venta de billetes fisicos</ol>
+                <ol>• Reservacion de vuelo</ol>
+                <ol>• La mayoria de servicios no estan disponibles en este momento</ol>
+            </p>
+            <!-- Copy_R -->
+            <footer>
+                <p><center>&copy;2023 Vuelos vision</center></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

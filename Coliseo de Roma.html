@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vuelos vision</title>
+    <link rel="icon"  type="image/png" href="delfin.png">
+    <style>
+ body {
+            background-image: url("cielo.jpg"); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+        }
+        /* Estilos para la "cabecera" asi le digo xd */
+        header {
+            font-size: 1.7rem;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: darkblue;
+            color: #fff;
+            padding: 20px;
+            margin: -10px;
+        }
+        /* Estilos para la barra de botones */
+        .boton-barra {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        /* Estilos para los botones */
+        .boton-barra li {
+            float: left;
+        }
+        .boton-barra li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .boton-barra li a:hover {
+            background-color: gray;
+            color: white;
+        }
+        /* contorno */
+        .contorno-texto {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000;
+        }
+        /* Contenedor para fondo */
+        .contenedor-borroso {
+            background-image: url("cielo.jpg"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* fondo borroso XD */
+        .contenido-sobre-fondo-borroso {
+            backdrop-filter: blur(10px); 
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+        /* Estilos para las imágenes */
+        .imagen {
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            height: 200px;
+            width: 300px;
+        }
+        /* contenedor descripcion */
+        .contenedor-imagen-descripcion {
+            text-align: center;
+            margin: 20px;
+            display: inline-block; 
+            width: 320px; 
+        }
+        /* descripcion imagenes */
+        .descripcion {
+            font-size: 16px;
+        }
+        table {
+            margin-top: 30px;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 30px;
+        }
+        h1 {
+            margin-top: 30px;
+        }
+        p {
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- contenedor -->
+    <div class="contenedor-borroso">
+        <div class="contenido-sobre-fondo-borroso">
+            <!-- Titulo -->
+            <header class="contorno-texto"><center>Vuelos vision</center></header>
+            <hr color="black">
+            <!-- Botones -->  
+            <ul class="boton-barra">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca de.html">Acerca de</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contactenos.html">Contacto</a></li>
+                <li><a href="referencias.html">referencias</a></li>
+            </ul>
+            <center>
+                <h2>Coliseo de Roma</h2>
+                <p>
+                Para llegar al Coliseo, puedes caminar desde el centro de Roma, ya que se encuentra a poca distancia de lugares como el Foro Romano y el Palatino. Mientras te acercas al Coliseo, su magnífica estructura se elevará ante tus ojos, evocando la grandeza del imperio romano.<br>
+                Una vez dentro, tendrás la oportunidad de explorar el anfiteatro y aprender sobre su historia. El Coliseo fue construido en el año 70-80 d.C. y era el lugar donde se llevaban a cabo emocionantes espectáculos públicos, como batallas de gladiadores y representaciones teatrales. Puedes imaginar la multitud que llenaba sus gradas mientras recorres sus pasillos y pasadizos.<br>
+                Además de su historia como lugar de entretenimiento, el Coliseo también tiene una historia más sombría como sitio de persecución de cristianos en la antigua Roma. A lo largo de los años, ha sido restaurado y conservado meticulosamente para que los visitantes puedan apreciar su esplendor original.<br>
+                Aqui unos datos curiosos sobre el coliseo
+                </p>
+                <table border="1">
+                    <tr>
+                        <td>El Coliseo de Roma, conocido en italiano como "Colosseo," debe su nombre al coloso de Nerón</td>
+                        <td rowspan="2"><center>datos curiosos cortos sobre el Coliseo de Roma</center></td>
+                        <td> A lo largo de los siglos, el Coliseo ha sufrido daños por terremotos, saqueos y la reutilización de sus materiales de construcción en otros edificios</td>
+                    </tr>
+                    <tr>
+                        <td>El Coliseo tenía una capacidad impresionante para albergar a entre 50,000 y 80,000 espectadores en sus gradas durante eventos como batallas de gladiadores, representaciones teatrales y competencias atléticas</td>
+                        <td> El Coliseo era famoso por sus espectáculos de lucha, que incluían batallas de gladiadores, caza de animales salvajes y representaciones teatrales. Estos eventos a menudo involucraban combates a muerte, y se estima que miles de personas y animales murieron en la arena durante su historia</td>
+                    </tr>
+                </table>
+                </center>
+            <!-- Copy_R -->
+            <footer>
+                <p>&copy; 2023 Vuelos vision</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
